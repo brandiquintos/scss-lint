@@ -1,6 +1,10 @@
 linters:
   BangFormat:
-    enabled: false
+    enabled: true
+
+  BemDepth:
+    enabled: true
+    max_elements: 1
 
   BorderZero:
     enabled: true
@@ -19,18 +23,17 @@ linters:
     enabled: true
 
   DeclarationOrder:
-    enabled: false
+    enabled: true
 
   DuplicateProperty:
-    enabled: true
+    enabled: false
 
   ElsePlacement:
     enabled: true
-    style: same_line
+    style: new_line
 
   EmptyLineBetweenBlocks:
     enabled: false
-    ignore_single_line_blocks: false
 
   EmptyRule:
     enabled: true
