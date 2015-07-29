@@ -17,13 +17,13 @@ linters:
     enabled: true
 
   Comment:
-    enabled: true
+    enabled: false
 
   DebugStatement:
     enabled: true
 
   DeclarationOrder:
-    enabled: true
+    enabled: false
 
   DuplicateProperty:
     enabled: false
@@ -33,7 +33,7 @@ linters:
     style: new_line
 
   EmptyLineBetweenBlocks:
-    enabled: true
+    enabled: false
 
   EmptyRule:
     enabled: true
@@ -83,118 +83,116 @@ linters:
     allow_leading_underscore: false
 
   NestingDepth:
-    enabled: true
-    max_depth: 3
-    ignore_parent_selectors: true
+    enabled: false
 
   PropertyCount:
     enabled: false
 
-    PropertySortOrder:
+  PropertySortOrder:
     enabled: true
     order:
-        - position
-        - top
-        - right
-        - bottom
-        - left
-        - z-index
-        - display
-        - float
-        - width
-        - min-width
-        - max-width
-        - height
-        - min-height
-        - max-height
-        - margin
-        - margin-top
-        - margin-right
-        - margin-bottom
-        - margin-left
-        - padding
-        - padding-top
-        - padding-right
-        - padding-bottom
-        - padding-left
-        - border
-        - border-width
-        - border-style
-        - border-color
-        - border-radius
-        - border-top
-        - border-top-width
-        - border-top-style
-        - border-top-color
-        - border-right
-        - border-right-width
-        - border-right-style
-        - border-right-color
-        - border-bottom
-        - border-bottom-width
-        - border-bottom-style
-        - border-bottom-color
-        - border-left
-        - border-left-width
-        - border-left-style
-        - border-left-color
-        - border-top-left-radius
-        - border-top-right-radius
-        - border-bottom-right-radius
-        - border-bottom-left-radius
-        - background
-        - background-color
-        - background-image
-        - background-repeat
-        - background-attachment
-        - background-position
-        - background-size
-        - box-shadow
-        - font-family
-        - font-size
-        - font-style
-        - font-smoothing
-        - font-weight
-        - line-height
-        - color
-        - letter-spacing
-        - word-spacing
-        - text-align
-        - text-decoration
-        - text-indent
-        - text-shadow
-        - text-transform
-        - white-space
-        - word-wrap
-        - word-break
-        - content
-        - opacity
-        - filter
-        - vertical-align
-        - list-style
-        - list-style-type
-        - list-style-position
-        - list-style-image
-        - cursor
-        - pointer-events
-        - clear
-        - overflow
-        - overflow-x
-        - overflow-y
-        - transform
-        - transition
-        - transition-delay
-        - transition-duration
-        - transition-property
-        - transition-timing-function
-        - table-layout
-        - box-sizing
-        - visibility
-        - clip
-        - table-layout
-        - animation
-        - appearance
-        - zoom
+      - position
+      - top
+      - right
+      - bottom
+      - left
+      - z-index
+      - display
+      - float
+      - width
+      - min-width
+      - max-width
+      - height
+      - min-height
+      - max-height
+      - margin
+      - margin-top
+      - margin-right
+      - margin-bottom
+      - margin-left
+      - padding
+      - padding-top
+      - padding-right
+      - padding-bottom
+      - padding-left
+      - border
+      - border-width
+      - border-style
+      - border-color
+      - border-radius
+      - border-top
+      - border-top-width
+      - border-top-style
+      - border-top-color
+      - border-right
+      - border-right-width
+      - border-right-style
+      - border-right-color
+      - border-bottom
+      - border-bottom-width
+      - border-bottom-style
+      - border-bottom-color
+      - border-left
+      - border-left-width
+      - border-left-style
+      - border-left-color
+      - border-top-left-radius
+      - border-top-right-radius
+      - border-bottom-right-radius
+      - border-bottom-left-radius
+      - background
+      - background-color
+      - background-image
+      - background-repeat
+      - background-attachment
+      - background-position
+      - background-size
+      - box-shadow
+      - font-family
+      - font-size
+      - font-style
+      - font-smoothing
+      - font-weight
+      - line-height
+      - color
+      - letter-spacing
+      - word-spacing
+      - text-align
+      - text-decoration
+      - text-indent
+      - text-shadow
+      - text-transform
+      - white-space
+      - word-wrap
+      - word-break
+      - content
+      - opacity
+      - filter
+      - vertical-align
+      - list-style
+      - list-style-type
+      - list-style-position
+      - list-style-image
+      - cursor
+      - pointer-events
+      - clear
+      - overflow
+      - overflow-x
+      - overflow-y
+      - transform
+      - transition
+      - transition-delay
+      - transition-duration
+      - transition-property
+      - transition-timing-function
+      - table-layout
+      - box-sizing
+      - visibility
+      - clip
+      - table-layout
+      - animation
+      - appearance
+      - zoom
     ignore_unspecified: false
 
   PropertySpelling:
